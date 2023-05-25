@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KINDER"
+        tools:targetApi="31">
+        <activity android:name=".ActivitySquareChange"
+            android:exported="false"/>
+        <activity android:name=".ActivitySquare"
+            android:exported="false"/>
+        <activity android:name=".ActivitySquareTutorial"
+            android:exported="false"/>
+        <activity android:name=".ActivityCircleColor"
+            android:exported="false"/>
+        <activity android:name=".ActivityRectangleColor"
+            android:exported="false"/>
+        <activity android:name=".ActivityPentagonColor"
+            android:exported="false"/>
+        <activity android:name=".ActivityHexagonColor"
+            android:exported="false"/>
+        <activity android:name=".ActivityTriangleColor"
+            android:exported="false"/>
+
+        <activity android:name=".ActivityTriangleChange"
+            android:exported="false"/>
+        <activity android:name=".ActivityPentagonChange"
+            android:exported="false"/>
+        <activity android:name=".ActivityCricleChange"
+            android:exported="false"/>
+        <activity android:name=".ActivityHexagonChange"
+            android:exported="false"/>
+        <activity android:name=".ActivityRectangleChange"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
